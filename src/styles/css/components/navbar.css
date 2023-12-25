@@ -3,7 +3,8 @@
 	--color-primary: #18181A;
 	--color-secondary: #75757C;
 	--color-dark: #364C62;
-	--color-light: #F5F5F5;
+	--color-light: #3FAFDF;
+	--color-menu: #3FE2DC;
 	--font-family-primary: 'Roboto Mono', monospace;
 	--font-family-secondary: 'Rubik Mono One', sans-serif;
 	--td: 150ms;
@@ -95,7 +96,7 @@ a {
 	width: 2rem;
 }
 [id="main-navigation-toggle"] ~ label span::before, [id="main-navigation-toggle"] ~ label span::after {
-	background-color: var(--color-dark);
+	background-color: var(--color-menu);
 	bottom: 0;
 	content: '';
 	height: 4px;
@@ -264,6 +265,8 @@ a {
 	transition-duration: calc(var(--td) * 3);
 	transform: translate(0, var(--pull));
 }
+
+
 @keyframes blink {
 	50%, 100% {
 		opacity: 0;
