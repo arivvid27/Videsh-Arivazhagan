@@ -2,8 +2,8 @@
 	position:absolute;
 	width:60px;
 	height:60px;
-	bottom:80px;
-	right:-300px;
+	bottom:-90px;
+	right:400px;
 	background-color:#222426;
 	color:#f48024;
 	border-radius:50px;
@@ -15,7 +15,7 @@
 .stackof i {
 	position: relative;
 	top: 0;
-	transition: top ease 0.5s;
+	/* transition: top ease 0.5s; */
 }
 
 
@@ -32,3 +32,11 @@
 	top: 0;
 	transition: top ease 0.5s;
 }
+@media (max-width: 768px) {
+	.stackof {
+		width:60px;
+		height:60px;
+		bottom:-90px;
+		left:calc(66% - 30px);
+		font-size: 30px;
+	}}

@@ -11,9 +11,14 @@ body {
 	background-size: cover;
 	font-family: 'Inconsolata', Helvetica, sans-serif;
 	font-size: 1.5rem;
-	color: rgba(250, 36, 36, 0.8);
+	color: #fa2424cc;
 	text-shadow: 0 0 1ex #ff0000, 0 0 2px rgba(255, 255, 255, 0.8);
 }
+body {
+	overflow-y: hidden; /* Hide vertical scrollbar */
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
 .noise {
 	pointer-events: none;
 	position: absolute;
