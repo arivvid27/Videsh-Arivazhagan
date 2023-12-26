@@ -3,7 +3,7 @@
 	width:60px;
 	height:60px;
 	bottom:-90px;
-	right:400px;
+	left:calc(60% - 30px);
 	background-color:#222426;
 	color:#f48024;
 	border-radius:50px;
@@ -39,4 +39,5 @@
 		bottom:-90px;
 		left:calc(66% - 30px);
 		font-size: 30px;
-	}}
+	}
+}
