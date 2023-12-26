@@ -1,0 +1,37 @@
+.github{
+	position:absolute;
+	width:60px;
+	height:60px;
+	bottom:-80px;
+	right:-300px;
+	background-color:#3B4252;
+	color:#f5f5f5;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+}
+
+.float-gh{
+	margin-top:16px;
+}
+
+.github i {
+	position: relative;
+	top: 0;
+	transition: top ease 0.5s;
+}
+
+
+.github:hover {
+	box-shadow: 0 0 10px #f5f5f5;
+	transition: box-shadow ease-in-out 0.2s;
+}
+.float-gh {
+	margin-top: 16px;
+}
+
+.github i {
+	position: relative;
+	top: 0;
+	transition: top ease 0.5s;
+}

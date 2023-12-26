@@ -1,0 +1,34 @@
+.stackof {
+	position:absolute;
+	width:60px;
+	height:60px;
+	bottom:80px;
+	right:-300px;
+	background-color:#222426;
+	color:#f48024;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+}
+
+
+.stackof i {
+	position: relative;
+	top: 0;
+	transition: top ease 0.5s;
+}
+
+
+.stackof:hover {
+	box-shadow: 0 0 10px #f48024;
+	transition: box-shadow ease-in-out 0.2s;
+}
+.float-sof {
+	margin-top: 10px;
+}
+
+.stackof i {
+	position: relative;
+	top: 0;
+	transition: top ease 0.5s;
+}
