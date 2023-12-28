@@ -2,7 +2,7 @@
 	position: absolute;
 	width: 60px;
 	height: 60px;
-	bottom: -90px;
+	bottom:-120px;
 	left:calc(50% - 30px);
 	background-color: #fff;
 	color: #0077b5;
@@ -30,7 +30,7 @@
 	.linkedin {
 		width:60px;
 		height:60px;
-		bottom:-90px;
+		bottom:-120px;
 		left:calc(50% - 30px);
 		font-size: 30px;
 	}

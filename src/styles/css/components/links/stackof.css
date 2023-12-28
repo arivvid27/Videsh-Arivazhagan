@@ -2,7 +2,7 @@
 	position:absolute;
 	width:60px;
 	height:60px;
-	bottom:-90px;
+	bottom:-120px;
 	left:calc(60% - 30px);
 	background-color:#222426;
 	color:#f48024;
@@ -36,7 +36,7 @@
 	.stackof {
 		width:60px;
 		height:60px;
-		bottom:-90px;
+		bottom:-120px;
 		left:calc(66% - 30px);
 		font-size: 30px;
 	}
